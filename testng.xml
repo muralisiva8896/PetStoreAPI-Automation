@@ -12,14 +12,15 @@
                     <include name="testDeleteUser"/>
                 </methods>
             </class!-->
-            <class name="api.test.UserTests">
+            <!--class name="api.test.UserTests">
                 <methods>
                     <include name="testPostUser"/>
                     <include name="testGetUserByName"/>
                     <include name="testUpdateUserByName"/>
                     <include name="testDeleteUserByName"/>
                 </methods>
-            </class>
+            </class!-->
+            <class name="api.test.UserTestsUsingProperties"/>
         </classes>
     </test>
 </suite>

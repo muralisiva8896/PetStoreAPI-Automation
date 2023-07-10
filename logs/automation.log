@@ -6,3 +6,11 @@
 00:16:46.576 [main] INFO  api.test.UserTests - ************* User details updated successfully *************
 00:16:46.578 [main] INFO  api.test.UserTests - ************* Deleting the User *************
 00:16:48.946 [main] INFO  api.test.UserTests - ************* User is deleted *************
+23:35:29.544 [main] INFO  api.test.UserTestsUsingProperties - ************* Creating New User *************
+23:35:32.616 [main] INFO  api.test.UserTestsUsingProperties - ************* User is created *************
+23:35:32.669 [main] INFO  api.test.UserTestsUsingProperties - ************* Reading User Info *************
+23:35:34.003 [main] INFO  api.test.UserTestsUsingProperties - ************* User info is displayed *************
+23:35:34.005 [main] INFO  api.test.UserTestsUsingProperties - ************* Updating the User *************
+23:35:35.312 [main] INFO  api.test.UserTestsUsingProperties - ************* User details updated successfully *************
+23:35:35.317 [main] INFO  api.test.UserTestsUsingProperties - ************* Deleting the User *************
+23:35:36.631 [main] INFO  api.test.UserTestsUsingProperties - ************* User is deleted *************
