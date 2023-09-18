@@ -63,7 +63,7 @@ public class UserTests {
         logger.info("************* Creating New User *************");
         Response response=UserEndPoints.createUser(this.payLoad);
         //System.out.println(payLoad.getUsername());
-       // System.out.println(response.getBody());
+        System.out.println(response.getBody());
         response.then().log().all();
         Assert.assertEquals(response.getStatusCode(), 200);
         logger.info("************* User is created *************");
@@ -97,6 +97,5 @@ public class UserTests {
         res.then().log().all();
         Assert.assertEquals(res.getStatusCode(),200);
         logger.info("************* User is deleted *************");
-
     }
 }

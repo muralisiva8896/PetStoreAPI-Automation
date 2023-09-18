@@ -53,7 +53,6 @@ public class UserTestsUsingProperties {
     }
     @Test(priority = 3)
     public void testUpdateUserByName(){
-
         logger.info("************* Updating the User *************");
         //Update the details
         payLoad.setFirstName(faker.name().firstName());

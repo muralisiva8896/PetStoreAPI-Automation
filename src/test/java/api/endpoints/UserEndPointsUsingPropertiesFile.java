@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 public class UserEndPointsUsingPropertiesFile {
 
     static ResourceBundle getURL(){
-        ResourceBundle routes = ResourceBundle.getBundle("routes"); //Loaf Properties File
+        ResourceBundle routes = ResourceBundle.getBundle("routes"); //Load Properties File
         return routes;
     }
 
@@ -32,7 +32,6 @@ public class UserEndPointsUsingPropertiesFile {
         String get_url = getURL().getString("get_url");
         Response res = given()
                 .pathParam("username",userName)
-
                 .when()
                 .post(get_url);
         return res;

@@ -32,7 +32,7 @@ public class ExtentReportManager implements ITestListener
 
         sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject"); // Title of report
         sparkReporter.config().setReportName("Pet Store Users API"); // name of the report
-        sparkReporter.config().setTheme(Theme.DARK);
+        sparkReporter.config().setTheme(Theme.STANDARD);
 
         extent=new ExtentReports();
         extent.attachReporter(sparkReporter);

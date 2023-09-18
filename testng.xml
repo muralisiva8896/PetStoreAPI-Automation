@@ -6,21 +6,21 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Intellij_Projects/petStoreAPIAutomation/src/test/java/api/test">
         <classes>
-            <!--class name="api.test.DataDrivenTests">
+            <class name="api.test.DataDrivenTests">
                 <methods>
                     <include name="testPostUser"/>
                     <include name="testDeleteUser"/>
                 </methods>
-            </class!-->
-            <!--class name="api.test.UserTests">
+            </class>
+            <class name="api.test.UserTests">
                 <methods>
                     <include name="testPostUser"/>
                     <include name="testGetUserByName"/>
                     <include name="testUpdateUserByName"/>
                     <include name="testDeleteUserByName"/>
                 </methods>
-            </class!-->
-            <class name="api.test.UserTestsUsingProperties"/>
+            </class>
+            <!--class name="api.test.UserTestsUsingProperties"/class!-->
         </classes>
     </test>
 </suite>

@@ -30,7 +30,7 @@ public class DataDrivenTests {
 
     @Test(priority = 2, dataProvider = "UserNames", dataProviderClass = DataProviders.class)
     public void testDeleteUser(String userName){
-        Response res = UserEndPoints.deleteUser(this.payload.getUsername());
+        Response res = UserEndPoints.deleteUser(userName);
         Assert.assertEquals(res.getStatusCode(), 404);
     }
 
